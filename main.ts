@@ -10,7 +10,7 @@ input.onButtonPressed(Button.A, function () {
     playRobot()
 })
 input.onButtonPressed(Button.B, function () {
-    radio.sendNumber(200)
+    radio.sendNumber(radioCode)
     playCount = 10
     playRobot()
 })
